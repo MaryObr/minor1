@@ -1,3 +1,3 @@
-# minor1
-https://maryobr.github.io/minor1/
-https://maryobr.github.io/minor1/minor/practice.html
+# minor
+https://maryobr.github.io/minor/
+https://maryobr.github.io/minor/minor/practice.html
