@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms 2</title>
+</head>
+<body>
+<table width=450  height=620 background="passport.jpg">
+    <form action="https://www.bing.com/" method="get">
+    <tr height="40"> </tr>
+     <tr>
+     <td align ="center" colspan =2 height = "50"> Выдано <input type="text" placeholder="Введите свой номер МВД"></td>
+     <tr height="10"> </tr>
+     <tr>
+         <td width="20%" align ="right" height="30"><input type="date" name="user" value="2023-10-23" placeholder= "Введите дату получения"></td>
+        <td width="50%" align ="center" height="30"><input type="text" placeholder="00-00"></td>
+     </tr>
+    <tr height = "110"> </tr>
+    <tr>
+<!--        к сожалению, при добавлении возможности выбора пользователем
+            фотографии, к сожалению, ломается структура таблицы, укоротить надпись "Файл не выбран",
+            к сожалению, не получается( я оставила эту возможность, потому что для этого задания важнее выбор,
+            чем аккуратная таблица -->
+        <td width="10%" rowspan = 8 height = "300" > <input type="file"> </td>
+<!--        вариант-аналог, при котором таблица останется красивой:-->
+<!--        <td width="10%" rowspan = 8 height = "300"> <img src="photo.jpg" width = "140" height="150"> </td>-->
+        <td width = "50%" height = 25> </td> </tr>
+    <tr>
+        <td width = "50%" align ="center" height = 55> <input type="text" placeholder="Иванов"> </td> </tr>
+
+     <tr>
+        <td width = "50%" align ="center" height = 15> <input type="text" placeholder="Иван"> </td></tr>
+    <tr>
+        <td width = "50%" align ="center" height = 10> <input type="text" placeholder="Иванович"></td></tr>
+    <tr height = 15>
+        <td>
+        <table>
+            <tr>
+            <td align ="left"><input type="radio" name="sex" value="rad1"> ж
+                <input type="radio" name="sex" value="rad1"> м </td>
+        <td width ="50%"> <input type="date" name="user" value="2000-12-31"> </td> </tr>
+        </table>
+    </td>
+    <tr>
+        <td width = "50%" height = 10 align ="center"> <textarea> Ваш адрес</textarea></td></tr>
+    <tr height = "120"> </tr>
+
+
+
+</table>
+<input type="submit" name="submit" value="Отправка">
+</body>
+</html>
