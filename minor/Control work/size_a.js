@@ -1,19 +1,18 @@
 function size_a() {
     console.log("a")
-    let a = parseInt(elementA.innerText)
-    console.log(a)
-    if (a > 100) {
+    let a = document.querySelector('input');
+    console.log(a.value);
+    if (a.value > 100) {
         result="x = 0"
         document.getElementById("result").innerText =  result;
     }
     else {
-    if (a < 61){
-         result= "x =" + String(a)
+    if (a.value < 61){
+         result= "x = " + String(a.value)
         document.getElementById("result").innerText =  result
     }
     else {
-
-           result="x =" + String(a**4)
+           result="x = " + String(a.value**4)
         document.getElementById("result").innerText =  result
     }
 }
