@@ -1,5 +1,2 @@
 # minor1
-https://maryobr.github.io/minor1/
-https://maryobr.github.io/minor/minor1/practice.html
-
-minor/Control work/Task 0/Str1.htmlminor/Control work/Task 0/Str1.html - первое задание с сайтом
+https://github.com/MaryObr/minor1/tree/master/minor/Control%20work/Task%200
