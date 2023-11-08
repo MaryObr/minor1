@@ -1,3 +1,3 @@
 # minor1
-https://maryobr.github.io/minor1/
-https://maryobr.github.io/minor/minor1/practice.html
+https://github.com/MaryObr/minor1/blob/master/minor/Control%20work/Task%200/Str1.html - основной сайт первого задания
+https://github.com/MaryObr/minor1/tree/master/minor/Control%20work - папка с заданиями контрольной работы
