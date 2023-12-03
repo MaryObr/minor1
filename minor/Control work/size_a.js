@@ -7,7 +7,7 @@ function size_a() {
         document.getElementById("result").innerText =  result;
     }
     else {
-    if (a.value < 61){
+    if (a.value < 61) {
          result= "x = " + String(a.value)
         document.getElementById("result").innerText =  result
     }
